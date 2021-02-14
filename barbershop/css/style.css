@@ -1,0 +1,342 @@
+body,
+hr,
+h1,
+h2,
+h3,
+p,
+ul
+ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* menu */
+
+ .menu {
+     background: #C67702;
+     padding: 20px 0;
+ }
+
+ .menu-container {
+    max-width: 960px;
+    margin: 0 auto;
+ }
+
+ .menu-container::after,
+.menu-container::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-logo {
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+.menu-nav {
+    float: right;
+    margin-right: 16px;
+  }
+
+  .menu-nav li {
+    display: inline-block;
+    padding:20px;
+  }
+
+  .menu-nav a {
+    display: block;
+    font-size: 1.125em;
+    color: #252525;
+    text-decoration: none;
+  }
+
+   /* introdução */
+
+  .intro {
+    background-image: url(../img/barber-shop-render.jpg);
+   background-attachment: fixed;
+    background-size: cover;
+    text-align: left;
+    padding: 150px 0;
+    color: #fff;
+  }
+
+  .intro h1 {
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2em;
+  }
+
+  .intro-btn {
+    margin: 20px 0 0 50px;
+    background: #252525;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 0.625em;
+    font-style: italic;
+    width: 150px;
+    padding: 13px 0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .intro-btn:hover {
+    background: #C67702;
+    color: #252525;
+  }
+
+   /* sobre */
+ 
+  .equipe {
+    padding: 60px 0;
+  }
+  
+  .equipe-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .equipe-container::after,
+  .equipe-container::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .equipe h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 60px;
+  }
+
+  .equipe-item {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+  }
+  
+  .equipe-item img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .equipe-item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background: #252525;
+    width: 220px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+    position: relative;
+  }
+  
+  .equipe > p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+  }
+
+   /* Serviços */
+
+  .servicos {
+    padding: 60px 0;
+    border-top: 3px solid #d6d3c8;
+    border-bottom: 3px solid #d6d3c8;
+  }
+  
+  .servicos-container {
+    max-width:960px;
+    margin: 0 auto;
+  }
+  
+  .servicos-container::after,
+  .servicos-container::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .servicos-item {
+    width: 300px;
+    float: left;
+    margin: 10px;
+  }
+  
+  .sericos-item h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+  }
+
+#conf {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+  
+  .servicos-item p {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+
+  .sobre-nos {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px auto;
+  }
+  
+  .sobre-nos-itens {
+    clear: both;
+    margin: 60px auto;
+  }
+  
+  .sobre-nos-itens::after,
+  .sobre-nos-itens::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .sobre-nos-itens img {
+    width: 460px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+  }
+
+    #primeira {
+      margin-left: 19px;
+      margin-bottom: 10px;
+  }
+  
+  .sobre-nos-itens > div {
+    width: 460px;
+    float: left;
+    margin: 10px 10px;
+  }
+  
+  .sobre-nos-itens h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-nos-itens p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 460px;
+    margin-bottom: 40px;
+  }
+
+  .assine {
+    background: #e7e4d8;
+    padding: 30px 0;
+  }
+  
+  .assine-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .assine-container::after,
+  .assine-container::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .assine-info {
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+  }
+  
+  .assine-info h2 {
+    font-size: 2.25em;
+  }
+  
+  .assine-info p {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  .assine form {
+    max-width: 460px;
+    margin: 20px 10px;
+    float: left;
+  }
+  
+  .assine form label {
+    display: none;
+  }
+  
+  .assine input {
+    width: 320px;
+    border: 3px solid #252525;
+    background: none;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 10px;
+    float: left;
+  }
+  
+  .assine button {
+    background: #252525;
+    border: none; 
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 100px;
+    padding: 13px 0;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /*  footer */
+  
+  .footer {
+    background: #C67702;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-container::after,
+  .footer-container::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer p {
+    float: left;
+    margin: 0 10px;
+    font-size: 1.125em;
+    font-style: italic;
+    line-height: 1.4em;
+    color: #252525;
+  }
+  
+  .footer a  {
+    float: right;
+    margin: 0 10px;
+    display: block;
+  }
+  
+  
+  
+ 

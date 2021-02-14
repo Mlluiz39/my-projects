@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #543ebc;
+    font-family: 'Fraunces', serif;
+}
+
+.section-container {
+    width: 300px;
+    margin: 30px auto;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+img {
+    width: 250px;
+}
+
+.section-container-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-container {
+    background-color: #f3f4f9;
+    margin: 30px auto;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.content-container h2{
+    font-size: 2.25em;
+    margin-bottom: 30px;
+}
+
+.content-container h3 {
+    font-size: 1.125em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.content-container p {
+    font-size: 1.125em;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.content-container li {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.content-container a {
+    color: #fff;
+    font-size: 1.125em; 
+}
+
+.content-container li:hover {
+    background-color: blue;
+    transition: all 0.7s;
+}
+
+.footer-container {
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+}
+
+.footer-main h3 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.footer-main p {
+    font-size: 1.105em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer-main-local {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.footer-main ul {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-main li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding-left: 15px;
+}
+
+.footer-main img {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@media (min-width:768px) {
+    .section-container {
+       float: left;
+       width: 300px;
+       height: 400px;
+       margin-top: 150px;
+       margin-left: 130px;
+       clear: both;
+    }
+    .content-container {
+        float: right;
+        width: 750px;
+        height: 100vh;
+        margin-right: 130px;
+    }
+
+    .content-container li {
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        
+    }
+
+    .footer-container {
+        display: inline-block;
+        clear: both;
+        height: 450px;
+    }
+
+    .footer-main ul {
+        text-align: center;
+    }
+
+    .footer-main iframe {
+        width: 100%;
+        height: 250px;
+        margin: 0 auto;
+      
+    }
+}
+
+   
+
+
+
+
+

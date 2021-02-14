@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-color: #3b82f6;
+    padding: 2rem 0 7rem;
+    text-align: center;
+}
+
+#logo {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    width: min(90vw 960px);
+    margin: auto;
+}
+
+.card1 {
+    width: 18.75rem;
+    text-align: center;
+    margin-top: -2rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.card1 h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #252525;
+}
+
+.card1 input {
+    border: 1px solid #f0f2f5;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.card2 {
+    width: 18.75rem;
+    height: 18.75rem;
+    text-align: center;
+    margin-top: -2rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.card2 h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #252525;
+}
+
+.card2 input {
+    border: 1px solid #f0f2f5;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.card3 {
+    width: 18.75rem;
+    height: 24.85rem;
+    text-align: center;
+    margin-top: -2rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+.card3 h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #252525;
+}
+
+.card3 input {
+    border: 1px solid #f0f2f5;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.card3 p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: italic;
+    color: #252525;
+
+}
+
+button {
+    padding: 0.3rem 2.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    background-color: rgba(239, 68, 68);
+    color: #fff;
+    border: none;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+button:focus {
+    outline-style: none;
+}
+
+.result {
+    justify-content: center;
+    align-items: center;
+    width: 15.625rem;
+    background-color: #f0f2f5;
+    padding: 2.5rem;
+    margin: 0 auto;
+}
+
+.avaliacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avaliacao h2 {
+    margin-bottom: 20px;
+}
+
+.avaliacao p {
+    margin-bottom: 30px;
+}
+
+.avaliacao a {
+    text-decoration: none;
+   margin: 0 auto;
+}
+
+footer {
+    background-color: #252525;
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+footer a {
+    color: aqua;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .card1, .card2, .card3 {
+      margin-top: -2rem;
+      margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card1, .card2, .card3 {
+      margin-top: -2rem;
+      margin-bottom: 4rem;
+    }
+}
+    
+
+@media (max-width: 1260px) {
+    .card1, .card2, .card3 {
+      margin-top: -2rem;
+      margin-bottom: 4rem;
+    }
+}

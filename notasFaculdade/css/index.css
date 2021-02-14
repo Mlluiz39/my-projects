@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #434343;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1060px;
+  height: 2800px;
+  margin: 30px auto;
+  background-color: #fff;
+}
+
+.cabecario h1 {
+  font-size: 1.3rem;
+  color: #ee9c2c;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.card1 {
+  max-width: 950px;
+  height: 330px;
+  margin: 75px auto;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+.card1 h2 {
+  color: #9e2d31;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.card1 p {
+  color: #252525;
+  font-size: 1rem;
+}
+
+.criterios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.criterios p {
+  font-size: 1.125rem;
+  line-height: 25px;
+  margin: 0px 30px 60px 30px;
+}
+
+.criterios strong {
+  color: #7e787b;
+}
+
+.containern1 {
+  max-width: 526px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cardn1 h2 {
+  margin-top: -50px;
+  margin-bottom: 60px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #252525;
+}
+.cardn1 h2 strong {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #9f2b25;
+}
+
+.cardn1 p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #252525;
+}
+
+.cardn1 p strong {
+  color: #7e787b;
+}
+
+.cardativ {
+  max-width: 526px;
+  margin: 60px auto;
+}
+
+.cardativtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardativtotal h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #7e787b;
+  margin-bottom: 30px;
+}
+
+.cardativtotal p {
+  font-size: 1.3rem;
+  font-weight: 1px;
+  color: #252525;
+}
+
+.card2 {
+  max-width: 950px;
+  height: 270px;
+  margin: 60px auto;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.card2 h2 {
+  color: #252525;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.card2 h2 strong {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #9f2b25;
+}
+
+.card2 p {
+  color: #252525;
+  max-width: 526px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+.sub {
+  max-width: 526px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cardsub h2 {
+  margin-top: -50px;
+  margin-bottom: 60px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #252525;
+}
+
+.cardsub p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #252525;
+}
+
+.cardsub h2 {
+  margin-top: 60px;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.cardsub h2 strong {
+  color: #9f2b25;
+  font-weight: 400;
+}
+
+.cardsub p {
+  font-size: 1rem;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.cardsub p strong {
+  color: #7e787b;
+}
+
+.cardsub span {
+  color: #7e787b;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.container-final {
+  max-width: 950px;
+  height: 1200px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+}
+
+.card-final {
+  max-width: 526px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.card-final h2 {
+  padding-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.card-interno {
+  max-width: 490px;
+  height: 425px;
+  background-color: #77787b;
+}
+
+.card-final h2 strong {
+  color: #9f2b25;
+  font-weight: 400;
+}
+
+.card-interno p {
+  padding-top: 30px;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.card-interno span {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 4rem;
+  line-height: 75px;
+}
+
+.card-p {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #252525;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.card-p2 {
+  color: #7e787b;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+footer a {
+  color: aqua;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .card1, .criterios, .card2, .cardn1, .cardativ, .cardativtotal, .sub, .container-final, .card-interno{
+        max-width: 90%;
+    }
+    
+}
