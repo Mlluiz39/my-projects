@@ -121,7 +121,6 @@ header {
     font-weight: 100;
     font-style: italic;
     color: #252525;
-
 }
 
 button {
@@ -158,13 +157,26 @@ button:focus {
     margin-bottom: 20px;
 }
 
-.avaliacao p {
-    margin-bottom: 30px;
+.avaliacao a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    text-decoration: none;  
 }
 
-.avaliacao a {
-    text-decoration: none;
-   margin: 0 auto;
+.avaliacao span {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: #fff;
+    font-style: italic;
+}
+
+.avaliacao span:hover {
+    background-color: #0a4ebd;
+    transition: all 1000ms
 }
 
 footer {
