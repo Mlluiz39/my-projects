@@ -1,0 +1,88 @@
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    height: 3900px;
+  }
+  .card1 {
+    max-width: 90%;
+    height: 500px;
+  }
+  .card1 p {
+    font-size: 16px;
+  }
+  .criterios {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .containern1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+  }
+  .cardativtotal {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardativtotal h3 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  .card2 {
+    max-width: 90%;
+    margin-top: -10px;
+    height: 400px;
+  }
+  .card2 p {
+    padding-bottom: 30px;
+  }
+  .sub {
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+  .container-final {
+    width: 90%;
+    height: 1600px;
+    text-align: center;
+  }
+  .card-interno {
+    height: 400px;
+    margin: 0 auto;
+  }
+  .card-interno p {
+    font-size: 14px;
+  }
+  .card-interno span {
+    font-size: 36px;
+  }
+  .card-p {
+    max-width: 90%;
+    margin: 30px auto;
+    font-size: 14px;
+  }
+  .card-p2 {
+    max-width: 90%;
+    margin: 30px auto;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .container p {
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .card-interno {
+    margin: 30px auto;
+  }
+  .card-p {
+    padding-bottom: 30px;
+  }
+}
