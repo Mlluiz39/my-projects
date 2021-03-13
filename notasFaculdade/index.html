@@ -27,32 +27,31 @@
     <section class="card1">
       <div class="">
         <h2>Cálculo N1</h2>
+        <form id='confirm' onsubmit="return false"> 
         <input class="a1" type="number" step=any id="a1" placeholder="Nota da atividade 1">
         <input class="a2" type="number" step=any id="a2" placeholder="Nota da atividade 2">
         <input class="a3" type="number" step=any id="a3" placeholder="Nota da atividade 3">
         <input class="a4" type="number" step=any id="a4" placeholder="Nota da atividade 4">
-        <button class="btnA1" id="calcular" onclick="calculaN1()">calcular</button>
-        <div class="result" id="resultado"></div>
       </div>
     </section >
     <section class="card2">
       <div>
         <h2>Cálculo N2</h2>
+        <p>Digite abaixo a nota da N2</p>
+        <br>
         <input class="n2" type="number" step=any id="n2" placeholder="Nota da atividade N2">
-        <button class="btnN2" id="calcularN2" onclick="calculaN2()">calcular</button>
-        <div class="result" id="resultadoN2"></div>
       </div>
     </section>
     <section class="card3">
       <div>
         <h2>Cálculo Total</h2>
-        <p>Digite as médias N1 e N2 </p>
-        <input class="mf" type="number" step=any id="mf1" placeholder="Média da N1">
-        <input class="mf" type="number" step=any id="mf2" placeholder="Média da N2">
-        <button class="btnN2" id="mediaFinal" onclick="calculoFinal()">Média Final</button>
+       <p>Resultado final das notas</p>
+       <button class="btnN2" id="mediaFinal" onclick="mediaTotal()">calcular</button>
         <div class="result" id="resultadofinal"></div>
+        <input type='reset' id="reset" value='Limpar'/>
       </div>
     </section>
+  </form>
   </main>
   <section class="avaliacao">
     <div class="avaliacao-card">
