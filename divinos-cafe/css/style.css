@@ -91,10 +91,8 @@ body {
   font-size: 1.125em;
 }
 
-h1 {
-
+.anima {
   animation-duration: 3s;
-
   animation-name: slidein;
   animation-iteration-count: infinite;
 
@@ -103,21 +101,14 @@ h1 {
 @keyframes slidein {
 
   from {
-
     margin-left: 100%;
-
     width: 300%
-
   }
 
   to {
-
     margin-left: 0%;
-
     width: 100%;
-
   }
-
 }
 
 h1 {
@@ -173,7 +164,6 @@ h1 {
     padding: 8px;
    
 }
-
 
  /* sobre */
 
