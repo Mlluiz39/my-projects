@@ -72,6 +72,10 @@ body {
   color: #fff;
 }
 
+.anime {
+  overflow: hidden;
+}
+
 .intro h1 {
   text-transform: uppercase;
   font-size: 3em;
@@ -91,11 +95,9 @@ body {
   font-size: 1.125em;
 }
 
-.anima {
-  animation-duration: 3s;
+h1 {
+  animation-duration: 8s;
   animation-name: slidein;
-  animation-iteration-count: infinite;
-
 }
 
 @keyframes slidein {
@@ -109,11 +111,6 @@ body {
     margin-left: 0%;
     width: 100%;
   }
-}
-
-h1 {
-    text-align: center;
-    font-style: italic;
 }
 
 .box {
