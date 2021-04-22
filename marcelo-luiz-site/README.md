@@ -1,3 +1,3 @@
 # site efetivo
 
-## Site que estou trabalhando para ser portflio
+## Site que estou trabalhando para ser portfólio
